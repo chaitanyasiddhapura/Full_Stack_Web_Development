@@ -1,0 +1,56 @@
+<!-- 
+    This file demonstrates the use of the <form> tag in HTML.
+    The <form> tag is used to collect user input and send it to a server.
+    It can contain input fields, buttons, checkboxes, and other form controls.
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label for="email">Enter Email ID:</label>
+        <input type="text" id="email" placeholder="Enter Your Email">
+        <br/>
+        <br/>
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password" placeholder="********">
+        <br/>
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>HTML Form</legend>
+            <label for="datepicker">Choose Date:</label>
+            <input type="date" id="datepicker">
+            <br>
+            <br>
+            <label for="selector1">Choose Your Dish</label>
+            <select name="dishes" id="selector1">
+                <option value="meggi">meggi</option>
+                <option value="kurkure">kurkure</option>
+                <option value="chips">chips</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="textArea1" id="textArea1" placeholder="Write something about..."></textarea>
+            <br>
+            <br>
+            <button>Click Here</button>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+
+</body>
+</html>
