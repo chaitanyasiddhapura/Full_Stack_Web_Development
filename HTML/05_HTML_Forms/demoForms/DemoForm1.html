@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoForm</title>
+</head>
+<body>
+    <form>
+        
+        <h2>Event Registration</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+
+        <label for="Phone">Phone:</label>
+        <input type="tel" name="Phone" id="Phone">
+        <br>
+        <br>
+
+        <label for="OccupationType">Occupation</label>
+        <select name="OccupationType" id="OccupationType">
+            <option value="Student">Student</option>
+            <option value="Professional">Professional</option>
+            <option value="other">other</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Choose Topics:</legend>
+            <label for="ChooseTopic1">HTML</label>
+            <input type="checkbox" name="Topic1" id="ChooseTopic1" value="HTML">
+            <label for="ChooseTopic2">CSS</label>
+            <input type="checkbox" name="Topic2" id="ChooseTopic2" value="CSS">
+            <label for="ChooseTopic3">JavaScript</label>
+            <input type="checkbox" name="Topic3" id="ChooseTopic3" value="JavaScript">
+        </fieldset>
+        <br>
+        <br>
+        
+        <label for="Comment">Comment:</label>
+        <textarea name="comment" id="Comment"></textarea>
+        <br>
+        <br>
+
+        <button>Register</button>
+
+    </form>
+</body>
+</html>
