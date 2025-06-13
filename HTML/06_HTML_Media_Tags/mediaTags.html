@@ -1,0 +1,26 @@
+<!-- 
+  This file demonstrates the use of HTML media tags.
+  It includes <img> for images, <audio> for sound, <video> for video playback,
+  and <iframe> for embedding external content like YouTube videos.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tags</title>
+</head>
+<body>
+
+    <!--  By default, browsers load all images and iframes on a page as soon as the page loads. When loading="lazy" is applied, the browser waits to load the image or iframe until the user scrolls close to it, saving bandwidth and improving page load performance. -->
+    <img src="123.png" alt="Image not found" height="100px" width="100px" loading="lazy">
+    <br>
+
+    <audio src="1.mp3"></audio>
+    <video src="Video.mp4" height="250px" width="300px" controls></video>
+
+    <iframe src="https://www.youtube.com/embed/LzMdQwHotN4?si=hrMO9vTEUvgUKKka"></iframe>
+
+</body>
+</html>
