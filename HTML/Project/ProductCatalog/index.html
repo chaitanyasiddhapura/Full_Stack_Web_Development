@@ -1,0 +1,135 @@
+<!-- 
+  This file is a simple Product Catalog project in HTML.
+  It showcases products from categories like Electronics, Clothing, and Home.
+  Each product includes a name, description, price, availability, image, and detailed specs.
+  It demonstrates the use of internal linking (anchor tags), nested lists, and sections using <div>, <ul>, <li>, <a>, <img>, and heading tags.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+</head>
+<body>
+    <div>
+        <h1>Product Catalog</h1>
+        
+        <ul>
+            <li><a href="#ElectronicsItems">Electronics</a></li>
+            <li><a href="#ClothingItems">Clothing</a></li>
+            <li><a href="#HomeItems">Home</a></li>
+        </ul>
+
+        <div id="ElectronicsItems">
+            
+            <h2>Electronics</h2>
+            
+            <div id="Item1">
+                <h3>Laptop</h3>
+                <p><b>Description:</b> High-performance laptop with the latest processor and storage.</p>
+                <p><b>Price:</b> $999.99</p>
+                <p><b>Availability:</b> In Stock</p>
+                <img src="1.png" alt="Image not found" height="150px" width="200px">
+                <p><a href="#LaptopDetails">View Details</a></p>
+                <ul id="LaptopDetails">
+                    <li><b>Brand:</b>XYZ Electronics</li>
+                    <li><b>Screen Size</b>15.6 inches</li>
+                    <li><b>RAM:</b>8GB</li>
+                    <li><b>Storage:</b>512GB SSD</li>
+                </ul>
+            </div>
+
+            <div id="Item2">
+                <h3>Smartphone</h3>
+                <p><b>Description:</b> Feature-rich Smartphone with a high-resolution display and advances camera.</p>
+                <p><b>Price:</b> $699.99</p>
+                <p><b>Availability:</b> Out of Stock</p>
+                <img src="2.png" alt="Image not found" height="150px" width="125px">
+                <p><a href="#SmartPhoneDetails">View Details</a></p>
+                <ul id="SmartPhoneDetails">
+                    <li><b>Brand:</b>ABC Mobile</li>
+                    <li><b>Camera:</b> 48MP + 12MP </li>
+                    <li><b>Storage:</b> 128GB</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="ClothingItems">
+            
+            <h2>Clothing</h2>
+            
+            <div id="Item1">
+                <h3>T-Shirt</h3>
+                <p><b>Description:</b> Casual and comfortable t-shirt made from premium quality cotton.</p>
+                <p><b>Price:</b> $19.99</p>
+                <p><b>Availability:</b> In Stock</p>
+                <img src="3.png" alt="Image not found" height="150px" width="150px">
+                <p><a href="#T_ShirtDetails">View Details</a></p>
+                <ul id="T_ShirtDetails">
+                    <li><b>Brand:</b> Fashion Apparel</li>
+                    <li><b>Color</b> Dark Bule</li>
+                    <li><b>Size</b> S, M, L</li>
+                    <li><b>Material:</b> 100% Cotton</li>
+                </ul>
+            </div>
+
+            <div id="Item2">
+                <h3>Jeans</h3>
+                <p><b>Description:</b> Classic jeans with a slim fit and stylish design</p>
+                <p><b>Price:</b> $49.99</p>
+                <p><b>Availability:</b>In Stock</p>
+                <img src="4.png" alt="Image not found" height="150px" width="125px">
+                <p><a href="#JeansDetails">View Details</a></p>
+                <ul id="JeansDetails">
+                    <li><b>Brand:</b> Fashion Apparel</li>
+                    <li><b>Color</b> Dark Bule</li>
+                    <li><b>Size</b> 30, 32, 34</li>
+                    <li><b>Material:</b> Denim</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="HomeItems">
+            
+            <h2>Home</h2>
+            
+            <div id="Item1">
+                <h3>Table Lamp</h3>
+                <p><b>Description:</b> Modern and stylish table lamp to enhance your home decor.</p>
+                <p><b>Price:</b> $39.99</p>
+                <p><b>Availability:</b> In Stock</p>
+                <img src="5.png" alt="Image not found" height="150px" width="150px">
+                <p><a href="#Table_LampDetails">View Details</a></p>
+                <ul id="Table_LampDetails">
+                    <li><b>Brand:</b> Home Essentials</li>
+                    <li><b>Color:</b> White</li>
+                    <li><b>Dimensions:</b> 12 inches (height)</li>
+                    <li><b>Material:</b> Ceramic, Metal</li>
+                </ul>
+            </div>
+
+            <div id="Item2">
+                <h3>Throw Pillow</h3>
+                <p><b>Description:</b> Soft and comfortable throw pillow for your living room or bedroom.</p>
+                <p><b>Price:</b> $24.99</p>
+                <p><b>Availability:</b>In Stock</p>
+                <img src="6.png" alt="Image not found" height="150px" width="165px">
+                <p><a href="#ThrowPillowDetails">View Details</a></p>
+                <ul id="ThrowPillowDetails">
+                    <li><b>Brand:</b> Sleep</li>
+                    <li><b>Color</b> White</li>
+                    <li><b>Size</b> 63 cm x 41 cm</li>
+                    <li><b>Material:</b> Polyester</li>
+                </ul> 
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
