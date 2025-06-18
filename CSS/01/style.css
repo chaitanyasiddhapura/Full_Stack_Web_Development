@@ -1,0 +1,10 @@
+/* 
+  External CSS File
+  This file is used to demonstrate external CSS.
+  It styles the <h1> element with a green color and centers the text.
+*/
+
+h1{
+    color: green;
+    text-align: center;
+}
